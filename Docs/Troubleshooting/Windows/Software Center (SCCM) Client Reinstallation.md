@@ -31,11 +31,10 @@ Special care and attention must be taken when reinstalling Software Center. It i
     1. Run PowerShell as Administrator.
     2. Navigate to Software Center's installation directory: `cd C:\Windows\ccmsetup`
     3. Run the setup file with the uninstallation switch: `.\ccmsetup.exe /uninstall`
+    4. Wait for the uninstallation to finish.
 
 > [!TIP]
 > It's best to run Task Manager as Administrator and monitor the background tasks. I recommend closing all Software Center related processes: `CcmExec.exe`, `SCNotification.exe` etc. If CPU usage stays dormant for longer than 10 minutes with no activity, I recommend closing all `WMI Provider Host` tasks (`WmiPrvSE.exe` process). They will restart (this is normal), but should cause the uninstallation process to proceed.
-    
-    4. Wait for the uninstallation to finish.
 
 2. **Remove residual Software Center data files** by deleting:
 
