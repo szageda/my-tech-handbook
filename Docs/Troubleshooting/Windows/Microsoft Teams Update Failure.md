@@ -37,13 +37,13 @@ This self-update failure has been reported multiple times on Microsoft Forums (h
 
 3. **Remove residual Teams data folders** by deleting:
 
-    - C:\Users\%username%\AppData\Local\Microsoft\Teams
-    - C:\Users\%username%\AppData\Local\Microsoft\TeamsMeetingAdd-in
-    - C:\Users\%username%\AppData\Local\Microsoft\TeamsMeetingAddin
-    - C:\Users\%username%\AppData\Local\Microsoft\TeamsMeetingAddinMsis
-    - C:\Users\%username%\AppData\Local\Microsoft\TeamsPresenceAddin
-    - C:\Users\%username%\AppData\Roaming\Microsoft\Teams
-    - C:\Users\%username%\AppData\Roaming\Teams
+    - `C:\Users\%username%\AppData\Local\Microsoft\Teams`
+    - `C:\Users\%username%\AppData\Local\Microsoft\TeamsMeetingAdd-in`
+    - `C:\Users\%username%\AppData\Local\Microsoft\TeamsMeetingAddin`
+    - `C:\Users\%username%\AppData\Local\Microsoft\TeamsMeetingAddinMsis`
+    - `C:\Users\%username%\AppData\Local\Microsoft\TeamsPresenceAddin`
+    - `C:\Users\%username%\AppData\Roaming\Microsoft\Teams`
+    - `C:\Users\%username%\AppData\Roaming\Teams`
 
 > [!NOTE]
 > Not all of the folders will be present, only delete the ones you find.

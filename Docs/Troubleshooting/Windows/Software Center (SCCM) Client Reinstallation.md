@@ -39,9 +39,9 @@ Special care and attention must be taken when reinstalling Software Center. It i
 
 2. **Remove residual Software Center data files** by deleting:
 
-    - C:\Windows\ccmsetup
-    - C:\Windows\ccmcache
-    - C:\Windows\CCM
+    - `C:\Windows\ccmsetup`
+    - `C:\Windows\ccmcache`
+    - `C:\Windows\CCM`
 
 > [!TIP]
 > The `CCM` folder often cannot be deleted as a whole. If that is the case, this is caused by the `ScriptStore` folder inside: delete everything inside `CCM` with the exception of `ScriptStore`.

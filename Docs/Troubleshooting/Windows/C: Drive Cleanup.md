@@ -10,9 +10,9 @@ The computer's C: drive has already or nearly filled up requiring a cleanup.
 
 1. **Clean up temporary data folders** (delete everything inside):
 
-    - C:\Users\%username%\AppData\Local\Temp
-    - C:\Windows\Temp
-    - C:\Users\%username%\Downloads
+    - `C:\Users\%username%\AppData\Local\Temp`
+    - `C:\Windows\Temp`
+    - `C:\Users\%username%\Downloads`
 
 > [!TIP]
 > Delete all items in the folders using <kbd>Shift</kbd>+<kbd>Del</kbd>: this way the data will be deleted permanently instead of moving it into the Recycle Bin.

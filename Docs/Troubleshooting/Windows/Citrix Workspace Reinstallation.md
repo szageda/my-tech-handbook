@@ -23,9 +23,9 @@ Reinstallation of Citrix Workspace app is sometimes necessary to diagnose or res
 
 2. **Remove residual Citrix data folders** by deleting:
 
-    - C:\Program Files (x86)\Citrix
-    - C:\ProgramData\Citrix
-    - C:\Users\%username%\AppData\Local\Citrix
+    - `C:\Program Files (x86)\Citrix`
+    - `C:\ProgramData\Citrix`
+    - `C:\Users\%username%\AppData\Local\Citrix`
 
 3. **Reboot** the computer.
 
