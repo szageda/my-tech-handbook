@@ -15,8 +15,8 @@ Reinstallation of Citrix Workspace app is sometimes necessary to diagnose or res
 
     2. Navigate to the Citrix Workspace app installation folder: `cd 'C:\Program Files (x86)\Citrix Workspace 2402'`
 
-    > [!NOTE]
-    > Replace the version number (2402) with the installed version number.
+> [!NOTE]
+> Replace the version number (2402) with the installed version number.
 
     3. Run the installer with the uninstallation switch: `.\CWAInstaller.exe /Uninstall`
     4. Wait for the uninstallation to finish.

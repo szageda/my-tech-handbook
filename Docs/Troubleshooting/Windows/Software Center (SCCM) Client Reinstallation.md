@@ -5,7 +5,7 @@
 Reinstallation of Software Center (SCCM) on a client computer is only recommended in extreme scenarios:
 
 - You've been instructed by higher support personnel.
-- Software Center cannot be open anymore. For example, you receive this error when trying to launch Software Center*:
+- Software Center cannot be opened anymore. For example, you receive this error when trying to launch Software Center*:
 
 ![Software Center error](./Assets/software-center-some-components-can-not-be-loaded.png)
 
@@ -32,8 +32,8 @@ Special care and attention must be taken when reinstalling Software Center. It i
     2. Navigate to Software Center's installation directory: `cd C:\Windows\ccmsetup`
     3. Run the setup file with the uninstallation switch: `.\ccmsetup.exe /uninstall`
 
-    > [!TIP]
-    > It's best to run Task Manager as Administrator and monitor the background tasks. I recommend closing all Software Center related processes: `CcmExec.exe`, `SCNotification.exe` etc. If CPU usage stays dormant for longer than 10 minutes with no activity, I recommend closing all `WMI Provider Host` tasks (`WmiPrvSE.exe` process). They will restart (this is normal), but should cause the uninstallation process to proceed.
+> [!TIP]
+> It's best to run Task Manager as Administrator and monitor the background tasks. I recommend closing all Software Center related processes: `CcmExec.exe`, `SCNotification.exe` etc. If CPU usage stays dormant for longer than 10 minutes with no activity, I recommend closing all `WMI Provider Host` tasks (`WmiPrvSE.exe` process). They will restart (this is normal), but should cause the uninstallation process to proceed.
     
     4. Wait for the uninstallation to finish.
 
@@ -43,8 +43,8 @@ Special care and attention must be taken when reinstalling Software Center. It i
     - C:\Windows\ccmcache
     - C:\Windows\CCM
 
-    > [!TIP]
-    > The `CCM` folder often cannot be deleted as a whole. If that is the case, this is caused by the `ScriptStore` folder inside: delete everything inside `CCM` with the exception of `ScriptStore`.
+> [!TIP]
+> The `CCM` folder often cannot be deleted as a whole. If that is the case, this is caused by the `ScriptStore` folder inside: delete everything inside `CCM` with the exception of `ScriptStore`.
 
 3. **Reboot** the computer.
 
@@ -56,8 +56,8 @@ Special care and attention must be taken when reinstalling Software Center. It i
     2. Navigate to the folder of the copied SCCM client installation files: `cd C:\Temp\SCCM_Client`.
     3. Run the installer: `.\ccmsetup.exe`
 
-    > [!WARNING]
-    > Consult the documentation of your organization or environment, because some switches may be required; for example, `/mp:<hostname>.<domain> SMSSITECODE=<siteCode>` and/or `/usePKICert`.
+> [!WARNING]
+> Consult the documentation of your organization or environment, because some switches may be required; for example, `/mp:<hostname>.<domain> SMSSITECODE=<siteCode>` and/or `/usePKICert`.
 
 2. **Monitor the installation log file** and wait for the exit code: `C:\Windows\ccmsetup\Logs\ccmsetup.log`
 
