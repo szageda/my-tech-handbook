@@ -27,13 +27,11 @@ This self-update failure has been reported multiple times on Microsoft Forums (h
 - Microsoft Teams
 - Microsoft Teams (work or school)
 - Microsoft Teams classic
-- Microsoft Teams Meeting Add-in for Microsoft Office
+- Microsoft Teams Meeting Add-in for Microsoft Office<b>*</b>
 
-> [!NOTE]
-> Even though you only see a single installation of Microsoft Teams in the Start menu, multiple editions may be installed side by side. It's important to uninstall all of them.
+💡 Even though you only see a single installation of Microsoft Teams in the Start menu, multiple editions may be installed side by side. It's important to uninstall all of them.
 
-> [!TIP]
-> Microsoft Teams Meeting Add-in for Microsoft Office will be reinstalled.
+<b>*</b> The meeting add-in doesn't have a separate installer, it will be reinstalled with Teams.
 
 3. **Remove residual Teams data folders** by deleting:
 
@@ -45,11 +43,7 @@ This self-update failure has been reported multiple times on Microsoft Forums (h
     - `C:\Users\%username%\AppData\Roaming\Microsoft\Teams`
     - `C:\Users\%username%\AppData\Roaming\Teams`
 
-> [!NOTE]
-> Not all of the folders will be present, only delete the ones you find.
-
-> [!TIP]
-> Removing Registry keys is generally not needed, but you can find them here: `HKCU\Software\Microsoft\Teams`.
+💡 Not all of the folders will be present, only delete the ones you find.
 
 4. **Download & install the Microsoft Teams .msix installer** from:
 
@@ -57,5 +51,4 @@ This self-update failure has been reported multiple times on Microsoft Forums (h
     - **For x86 64-bit systems:** https://go.microsoft.com/fwlink/?linkid=2196106
     - **For ARM 64-bit systems:** https://go.microsoft.com/fwlink/?linkid=2196207&clcid=0x409
 
-> [!NOTE]
-> Installer source: https://learn.microsoft.com/en-us/microsoftteams/new-teams-bulk-install-client#option-b-upgrade-to-the-new-teams-across-your-organization
+*Installer source: https://learn.microsoft.com/en-us/microsoftteams/new-teams-bulk-install-client#option-b-upgrade-to-the-new-teams-across-your-organization*
