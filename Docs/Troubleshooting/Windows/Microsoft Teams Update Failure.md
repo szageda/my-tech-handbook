@@ -9,7 +9,6 @@ Microsoft Teams's built-in self-update has stopped updating the app automaticall
 Other symptoms may include:
 
 - The *Update Teams* (or *Download Teams*) button doesn't work; however, clicking *Open Teams on the web* takes the user to https://teams.microsoft.com/v2 in the web browser.
-
 - Another version of the same message:
 
 ![Microsoft Teams needs an update alternative version](./Assets/microsoft-teams-needs-an-update-alt.png)
@@ -21,13 +20,12 @@ This self-update failure has been reported multiple times on Microsoft Forums (h
 ## 3. Solution
 
 1. **Close and quit Microsoft Teams** and Microsoft Outlook.
-
 2. **Remove the current Microsoft Teams installation** via *Windows Settings* -> *Installed apps* or *Control Panel* -> *Programs & Features*:
 
-- Microsoft Teams
-- Microsoft Teams (work or school)
-- Microsoft Teams classic
-- Microsoft Teams Meeting Add-in for Microsoft Office<b>*</b>
+    - Microsoft Teams
+    - Microsoft Teams (work or school)
+    - Microsoft Teams classic
+    - Microsoft Teams Meeting Add-in for Microsoft Office<b>*</b>
 
 💡 Even though you only see a single installation of Microsoft Teams in the Start menu, multiple editions may be installed side by side. It's important to uninstall all of them.
 

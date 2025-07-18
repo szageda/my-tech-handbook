@@ -34,11 +34,8 @@ The installation wizard will ask which add-on(s) to install – consult the docu
     - `C:\Users\%username%\AppData\Local\Citrix`
 
 3. **Reboot** the computer.
-
 4. **Download & install the latest Citrix Workspace version** from https://www.citrix.com/downloads/workspace-app/
-
 5. **Follow the installation instructions.**
-
 6. Wait for the installation to finish. You will be prompted to **reboot** the computer.
 
 ![Citrix Workspace app successful installation](./Assets/citrix-workspace-app-successful-installation.png)

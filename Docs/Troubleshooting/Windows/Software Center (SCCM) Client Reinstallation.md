@@ -12,11 +12,8 @@ Reinstallation of Software Center (SCCM) on a client computer is only recommende
 <b>*</b> For this particular error message, it's best to first verify if Provisioning Mode is enabled:
 
 1. Navigate to `HKLM\SOFTWARE\Microsoft\CCM\CcmExec` in Registry Editor.
-
 2. Check the value of `ProvisioningMode`: it will be either `true` (enabled) or `false` (disabled).
-
 3. To disable Provisioning Mode, run this in an elevated PowerShell prompt: `Powershell.exe Invoke-WmiMethod -Namespace "root\CCM" -Class "SMS_Client" -Name "SetClientProvisioningMode" $false`
-
 4. Reboot the computer.
 
 ## 2. Information
@@ -64,7 +61,6 @@ Pay attention to the installation steps, because some switches may be required; 
     3. Run the installer: `.\ccmsetup.exe`
 
 2. **Monitor the installation log file and wait for the return code:** `C:\Windows\ccmsetup\Logs\ccmsetup.log`. The installation is silent, there is no installation wizard.
-
 3. You should see `CcmSetup is exiting with return code 0` upon successful installation.
 
 💡 Other possible return codes and their causes: https://www.systemcenterdudes.com/sccm-client-installation-error-codes/
@@ -72,9 +68,6 @@ Pay attention to the installation steps, because some switches may be required; 
 ### 3.4. Post-Installation
 
 1. **Wait for 1 hour** before trying to open Software Center. Software Center uses this time to update its internal components and pull in new software.
-
 2. Run **all options** from *Control Panel* -> *Configuration Manager* -> *Actions*.
-
 3. **Update the group policies** in PowerShell: `gpupdate /force`
-
 4. **Test Software Center** to make sure it opens and runs correctly.
