@@ -1,6 +1,8 @@
 # My Tech Handbook
 
 Docs/  
+&nbsp;&nbsp;&nbsp;&nbsp;Guides/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linux](./Docs/Guides/Linux/)  
 &nbsp;&nbsp;&nbsp;&nbsp;Troubleshooting/  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Windows](./Docs/Troubleshooting/Windows/)
 
