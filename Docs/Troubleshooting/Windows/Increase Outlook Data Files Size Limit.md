@@ -76,4 +76,4 @@ To increase the file size limit of Outlook data files from 50 GB to 100 GB:
 
 ![Outlook data file size limit RegEdit values](./Assets/microsoft-outlook-data-file-limit-regedit.png)
 
-6. Start Outlook and monitor the Outlook data file size change in `C:\Users\%username%\AppData\Local\Microsoft\Outlook`. You should see the file size increase beyond the default limit. Also, the error messages from Outlook regarding the Outlook data file size has disappeared.
+6. Start Outlook and monitor the Outlook data file size change in `C:\Users\%username%\AppData\Local\Microsoft\Outlook`. You should see the file size increase beyond the default limit. Also, the error message from Outlook regarding the Outlook data file size has disappeared.
